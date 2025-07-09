@@ -41,7 +41,7 @@ def save_to_txt(filename, file_name, file_info, sha256_hash):
 
 if __name__ == "__main__":
     # Nombre de la carpeta que quieres comprimir
-    folder_to_compress = "./pyocd-0.1.3-linux"
+    folder_to_compress = "./pyocd"
     
     # Nombre del archivo de salida con la fecha actual
     output_filename = f"pyocd-0.1.3-linux_devlab_version_{datetime.datetime.now().strftime('%Y-%m-%d')}.tar.bz2"
